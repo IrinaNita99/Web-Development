@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contact</title>
+<link rel="stylesheet" type="text/css" href="contact.css">
+<link rel="stylesheet" href="animate.min.css">
+<link rel="shortcut icon" href="pictures/pandora_jewelry_social_media.png" type="image/png" sizes="16x16">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+<link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+ <!-- SweetAlert2 -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+
+</head>
+<body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<div class="header">
+ <a href="index.html">Back to Home Page </a>
+ </div>
+
+ 
+
+
+<div class="row">
+  <div class="column">
+    <h2>Need help finding that perfect gift?</h2>
+    <p>Find the special gift for that special someone using the Pandora gift finder.</p>
+  </div>
+  
+  <div class="column">
+    <h2>Express yourself in new ways</h2>
+    <p>Throw open the doors to possibility and forget the rules with our new Autumn Collection. Collect the new pieces and embrace unexpected styling possibilities to show what you're all about this autumn.</p>
+  </div>
+  
+  <div class="column">
+    <h2>Collect charms that hold your memories</h2>
+    <p> If you can't get enough of collecting charms on your bracelet, then you are going to love the new O Pendant. Created to re imagine the way charms can be worn, it comes in three different metals and sizes.</p>
+  </div>
+</div>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZtHBZLuDpI0" ></iframe>
+
+<!-- BOOTSTRAP FORM -->
+<!-- LOGIN FORM -->
+<div class="text-center" style="padding:50px 200px">
+	<div class="logo">login</div>
+	<!-- Main Form -->
+	<div class="login-form-1">
+		<form name="form2" id="login-form" class="text-left">
+			<div class="login-form-main-message"></div>
+			<div class="main-login-form">
+				<div class="login-group">
+					<div class="form-group">
+						<label for="lg_username" class="sr-only">Username</label>
+						<input type="text" class="form-control" id="lg_username" name="lg_username" placeholder="username">
+					</div>
+					<div class="form-group">
+						<label for="lg_password" class="sr-only">Password</label>
+						<input type="password" class="form-control" id="lg_password" name="lg_password" placeholder="password">
+					</div>
+					<div class="form-group login-group-checkbox">
+						<input type="checkbox" id="lg_remember" name="lg_remember">
+						<label for="lg_remember">remember</label>
+					</div>
+				</div>
+				<button type="submit" class="login-button"><i class="fa fa-chevron-right"></i></button>
+			</div>
+			<div class="etc-login-form">
+				<p>forgot your password? <a href="#">click here</a></p>
+				<p>new user? <a href="#" id="a" onclick="showRegisterForm();">create new account</a></p>
+			</div>
+		</form>
+	</div>
+	<!-- end:Main Form -->
+</div>
+
+<div id="display" class="text-center" style="padding-left: 608px; position:relarive; top:4em; ">
+	<div class="logo">register</div>
+	<!-- Main Form -->
+	<div class="login-form-1">
+		<form name="form1" id="register-form" class="text-left">
+			<div class="login-form-main-message"></div>
+			<div class="main-login-form">
+				<div class="login-group">
+					<div class="form-group">
+						<label for="reg_username" class="sr-only">Email address</label>
+						<input type="text" class="form-control" id="reg_username" name="reg_username" placeholder="username">
+					</div>
+					<div class="form-group">
+						<label for="reg_password" class="sr-only">Password</label>
+						<input type="password" class="form-control" id="reg_password" name="reg_password" placeholder="password">
+					</div>
+					<div class="form-group">
+						<label for="reg_password_confirm" class="sr-only">Password Confirm</label>
+						<input type="password" class="form-control" id="reg_password_confirm" name="reg_password_confirm" placeholder="confirm password">
+					</div>
+					
+					<div class="form-group">
+						<label for="reg_email" class="sr-only">Email</label>
+						<input type="text" class="form-control" id="reg_email" name="reg_email" placeholder="email">
+					</div>
+					<div class="form-group">
+						<label for="reg_fullname" class="sr-only">Full Name</label>
+						<input type="text" class="form-control" id="reg_fullname" name="reg_fullname" placeholder="full name">
+					</div>
+					
+					<div class="form-group login-group-checkbox">
+						<input type="radio" class="" name="reg_gender" id="male" placeholder="username">
+						<label for="male">male</label>
+						
+						<input type="radio" class="" name="reg_gender" id="female" placeholder="username">
+						<label for="female">female</label>
+          </div>
+          
+          <div class="form-group range">
+            <label for="customRange1">How often do you shop?</label>
+            <input type="range" class="custom-range" id="customRange1">
+          </div>
+
+          <div class="form-group select">
+            <label>Which one is your favourite?</label>
+            <select class="selectpicker">
+              <option value="ring">Rings</option>
+	            <option value="bracelet">Bracelets</option>
+	            <option value="necklace">Necklace</option>
+            </select>
+          </div>
+
+					
+					<div class="form-group login-group-checkbox">
+						<input type="checkbox" class="" id="reg_agree" name="reg_agree">
+						<label for="reg_agree">i agree with <a href="#">terms</a></label>
+					</div>
+				</div>
+				<button type="submit" class="login-button"><i class="fa fa-chevron-right"></i></button>
+			</div>
+			<div class="etc-login-form">
+				<p>already have an account? <a href="#">login here</a></p>
+			</div>
+		</form>
+	</div>
+	<!-- end:Main Form -->
+</div>
+
+
+<h2> Where you can find us </h2>
+<iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=parklake%2C%20romania&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+
+<h3 id="h3"> Participate in Spring Raffle </h3>
+<label>
+	<input type="radio" name="answer" value="yes" checked onclick="myVar = setTimeout(myFunction, 3000)">Yes<br>
+	<input type="radio" name="answer" value="no"  onclick="stopTextColor()"> No<br>
+    </label>
+
+
+  
+ 
+  <body onload="changeColor();">
+ <!--  <button onclick="stopTextColor();">Stop</button> --> 
+
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-instagram"></a>
+
+
+
+<script src="Javascript/ContactJs.js"></script>
+<script src="Javascript/CommonJs.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+<script src="sweetalert2.all.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

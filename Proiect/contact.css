@@ -1,0 +1,269 @@
+
+h3{
+  font-family: 'Great Vibes', cursive;
+  color: rebeccapurple;
+  font-size: 200%;
+  }
+  
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  font-family: 'Satisfy', cursive;
+  border: none;
+  outline: none;
+  background-color:transparent;
+  color:purple;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color:pink;
+}
+  
+	
+/* background */
+body {
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+	font-family: "Exo", sans-serif;
+	color: #fff;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+a,
+a:hover {
+	text-decoration: none;
+	color: #ddd;
+}
+
+/* video */
+iframe{
+	display: block;
+    margin: 0 auto;}
+
+
+/* header */
+.header {
+  overflow: hidden;
+  padding: 20px 10px;
+}
+
+/* contact */
+* {box-sizing: border-box;}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2; /*gri pt forma*/
+  padding: 20px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row h2{
+font-family: 'Great Vibes', cursive;} /*font custom*/
+
+/* footer icon */
+.fa {
+  padding: 20px;
+  font-size: 30px; 
+  width: 4.375rem;
+  text-align: center; 
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%; /*cerc */
+  
+  
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  position:absolute;
+  left: 43%;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  position:absolute;
+  left: 48%;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+  position:absolute;
+  left: 53%;
+  
+}
+
+h2{
+	font-family: 'Great Vibes', cursive;
+	text-align: center;
+	color: purple;
+	font-size: 2rem;}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+  
+  iframe{
+	  width: 80%;
+  height: auto;}
+  
+  input[type=submit] {
+  background-color: pink;
+  color: black;
+}
+
+ .fa-facebook { 
+   left: 30%; 
+ }
+ .fa-twitter { 
+  left: 45%; 
+ } 
+.fa-instagram { 
+   left: 60%; 
+  
+ } 
+
+
+}
+
+@media screen and (max-width: 800px)
+{ .fa{
+	width: 10%;; /*marimea*/
+    margin-left: 5%;
+    margin-top: 5%;
+	}
+	
+	 .fa-facebook { 
+   left: 30%; 
+ }
+ .fa-twitter { 
+  left: 45%; 
+ } 
+.fa-instagram { 
+   left: 60%; 
+  
+ } 
+}
+
+/*BOOTSTRAP FORM*/
+
+/*=== 3. Text Outside the Box ===*/
+.etc-login-form {
+  color: #919191;
+  padding: 10px 20px;
+}
+.etc-login-form p {
+  margin-bottom: 5px;
+}
+/*=== 4. Main Form ===*/
+.login-form-1 {
+  max-width: 300px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.main-login-form {
+  position: relative;
+}
+.login-form-1 .form-control {
+  border: 0;
+  box-shadow: 0 0 0;
+  border-radius: 0;
+  background: transparent;
+  color: #555555;
+  padding: 7px 0;
+  font-weight: bold;
+  height:auto;
+}
+
+.login-form-1 .form-group {
+  margin-bottom: 0;
+  border-bottom: 2px solid #efefef;
+  padding-right: 20px;
+  position: relative;
+}
+.login-form-1 .form-group:last-child {
+  border-bottom: 0;
+}
+.login-group {
+  background: #ffffff;
+  color: #999999;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+.login-group-checkbox {
+  padding: 5px 0;
+}
+/*=== 5. Login Button ===*/
+.login-form-1 .login-button {
+  position: absolute;
+  right: -25px;
+  top: 50%;
+  background: #ffffff;
+  color: #999999;
+  padding: 11px 0;
+  width: 50px;
+  height: 50px;
+  margin-top: -25px;
+  border: 5px solid #efefef;
+  border-radius: 50%;
+  transition: all ease-in-out 500ms;
+}
+.login-form-1 .login-button:hover {
+  color: #555555;
+  transform: rotate(450deg);
+}
+
+/*=== 9. Misc ===*/
+.logo {
+  padding: 15px 0;
+  font-size: 40px;
+  color: #aaaaaa;
+  font-weight: bold;
+  font-family: 'Great Vibes', cursive;
+}
+
+#display{
+  display:none;
+}
+
